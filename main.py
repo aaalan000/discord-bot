@@ -9,7 +9,7 @@ bot = commands.Bot(command_prefix= "/")
 async def on_ready():
     print(">>Bot is online<<")
 
-bot.run("OTM4NDExMDAyNTE1NTcwNzQ4.Yfp5WQ.TSQOXoirlZ6N2Jy-qA0TYIVInGE")
+bot.run("")
 
 #成員加入離開提醒
 @bot.event
