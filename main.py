@@ -15,11 +15,11 @@ bot.run("OTM4NDExMDAyNTE1NTcwNzQ4.Yfp5WQ.TSQOXoirlZ6N2Jy-qA0TYIVInGE")
 @bot.event
 
 async def on_member_join(member):
-    channel = bot.get_channel(938444934967590973)
+    channel = bot.get_channel()
     await channel.send(f"{member}join!")
 
 @bot.event
 
 async def on_member_remove(member):
-    channel = bot.get.channel(938444980081545246)
+    channel = bot.get.channel()
     await channel.send(f"{member}leave!")
